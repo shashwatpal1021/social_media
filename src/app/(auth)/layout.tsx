@@ -15,18 +15,11 @@ export default function RootLayout({ children }: Readonly<{
   return (
     <html lang='en'>
       <body className={inter.className}>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          <div className='fixed top-0 right-0 p-4'>
-            <Theme />
-          </div>
+       
+          
           {children}
           <footer></footer>
-        </ThemeProvider>
+
       </body>
     </html>
   )
