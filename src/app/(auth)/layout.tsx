@@ -22,7 +22,7 @@ export default function RootLayout({ children }: Readonly<{
           disableTransitionOnChange
         >
           <div className='fixed top-0 right-0 p-4'>
-            <Theme />
+
           </div>
           {children}
           <footer></footer>
